@@ -8,6 +8,7 @@
     <file path="/CheckQQ.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1363754541252" ignored="false" />
     <file path="/Dummy.txt" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1363805253209" ignored="false" />
     <file path="/DogClass.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1363825676328" ignored="false" />
+    <file path="/Test.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1363828488733" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,19 +34,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DogClassAgain.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DogClassAgain.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../MyPython/Practise/DogClassAgain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.02276176">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Animation_2.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Animation_2.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../MyPython/Animation_Example/Animation_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="36" selection-start="2090" selection-end="2090" vertical-scroll-proportion="0.23787528">
+            <state line="80" column="5" selection-start="2529" selection-end="2529" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MyPython/Practise/Test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animation_3.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MyPython/Animation_Example/Animation_3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="127" column="6" selection-start="3564" selection-end="3586" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Python-1.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MyPython/Animation_Example/Python-1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="66" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -68,7 +96,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -90,6 +118,7 @@
         <option value="$PROJECT_DIR$/../MyPython/Practise/Dog 2.py" />
         <option value="$PROJECT_DIR$/../MyPython/Practise/DogClass.py" />
         <option value="$PROJECT_DIR$/../MyPython/Practise/DogClassAgain.py" />
+        <option value="$PROJECT_DIR$/../MyPython/Practise/Test.py" />
       </list>
     </option>
   </component>
@@ -112,7 +141,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -124,7 +153,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -132,27 +160,15 @@
               <option name="myItemId" value="untitled1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyPython" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Practise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyPython" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Animation_Example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -162,10 +178,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="options.searchVisible" value="true" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -182,41 +199,7 @@
       <recent name="$PROJECT_DIR$/Animation_Example" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DogClass">
-    <configuration default="false" name="CheckQQ" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MyPython/Animation_Example" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="untitled1" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../MyPython/Animation_Example/CheckQQ.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Python-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MyPython/Animation_Example" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="untitled1" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../MyPython/Animation_Example/Python-1.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Animation_3">
     <configuration default="false" name="DogClass" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,6 +249,40 @@
       <module name="untitled1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../MyPython/Practise/DogInstance.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MyPython/Practise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="untitled1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../MyPython/Practise/Test.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Animation_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MyPython/Animation_Example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="untitled1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../MyPython/Animation_Example/Animation_3.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -346,19 +363,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.CheckQQ" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Python-1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.DogClass" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Doctests in /Users/epq_008/PycharmProjects/MyPython/Practise" />
-      <item index="4" class="java.lang.String" itemvalue="Python.DogInstance" />
+      <item index="0" class="java.lang.String" itemvalue="Python.DogClass" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Doctests in /Users/epq_008/PycharmProjects/MyPython/Practise" />
+      <item index="2" class="java.lang.String" itemvalue="Python.DogInstance" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Animation_3" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.DogClass" />
-        <item index="1" class="java.lang.String" itemvalue="Python.DogInstance" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Doctests in /Users/epq_008/PycharmProjects/MyPython/Practise" />
-        <item index="3" class="java.lang.String" itemvalue="Python.CheckQQ" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Python-1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Animation_3" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.DogClass" />
+        <item index="3" class="java.lang.String" itemvalue="Python.DogInstance" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Doctests in /Users/epq_008/PycharmProjects/MyPython/Practise" />
       </list>
     </recent_temporary>
   </component>
@@ -390,19 +407,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="805" extended-state="7" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="805" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25322813" sideWeight="0.6710335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25681493" sideWeight="0.6710335" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32896653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -468,13 +485,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../MyPython/Animation_Example/Animation_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="10" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../MyPython/Animation_Example/Animation_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="5" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
@@ -489,67 +499,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../MyPython/Animation_Example/Animation_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="10" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="35" column="10" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../MyPython/Animation_Example/hw2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="285" column="0" selection-start="9169" selection-end="9169" vertical-scroll-proportion="-19.16">
-          <folding />
-        </state>
+        <state line="285" column="0" selection-start="9169" selection-end="9169" vertical-scroll-proportion="-19.16" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../MyPython/Animation_Example/no_global.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="19" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyPython/Animation_Example/Animation_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="21" selection-start="3564" selection-end="3586" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="49" column="19" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../MyPython/Practise/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../MyPython/Animation_Example/CheckQQ.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="14" selection-start="51" selection-end="58" vertical-scroll-proportion="0.06928407">
-          <folding>
-            <element signature="e#23#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyPython/Animation_Example/Python-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="66" selection-start="1349" selection-end="1349" vertical-scroll-proportion="1.2471131">
-          <folding />
-        </state>
+        <state line="2" column="14" selection-start="51" selection-end="58" vertical-scroll-proportion="0.06928407" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../MyPython/Animation_Example/hw3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="274" column="8" selection-start="10314" selection-end="10314" vertical-scroll-proportion="1.3571428">
-          <folding />
-        </state>
+        <state line="274" column="8" selection-start="10314" selection-end="10314" vertical-scroll-proportion="1.3571428" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../MyPython/Animation_Example/hw1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="180" column="21" selection-start="5943" selection-end="5943" vertical-scroll-proportion="0.53571427">
-          <folding />
-        </state>
+        <state line="180" column="21" selection-start="5943" selection-end="5943" vertical-scroll-proportion="0.53571427" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../MyPython/Practise/DogInstance.py">
@@ -566,16 +546,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MyPython/Practise/DogClassAgain.py">
+    <entry file="file://$PROJECT_DIR$/../MyPython/Animation_Example/Animation_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+        <state line="80" column="5" selection-start="2529" selection-end="2529" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MyPython/Animation_Example/Animation_2.py">
+    <entry file="file://$PROJECT_DIR$/../MyPython/Practise/Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="36" selection-start="2090" selection-end="2090" vertical-scroll-proportion="0.23787528">
+        <state line="2" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MyPython/Animation_Example/Animation_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="6" selection-start="3564" selection-end="3586" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MyPython/Animation_Example/Python-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="66" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MyPython/Practise/DogClassAgain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.02276176">
           <folding />
         </state>
       </provider>

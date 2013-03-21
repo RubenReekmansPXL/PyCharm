@@ -1,5 +1,5 @@
 #hw6   15-112
-#Yujia Wang (yujiaw) Section A
+#
 
 """
 Part 2.

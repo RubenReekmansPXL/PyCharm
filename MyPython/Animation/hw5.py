@@ -1,6 +1,5 @@
 #hw5
-#Yujia Wang, yujiaw,
-#due date: 2/18/2013
+#
 
 """
 Part a

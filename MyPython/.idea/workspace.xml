@@ -1,10 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" name="Default" comment="" />
+    <list default="true" id="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Animation/AnimationWithClass.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practise/EqlProblem.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practise/Isinstance_VS_Type.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practise/Old_VS_New_Style_Class.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practise/Overriding.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practise/StrProblem.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practise/Test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practise/UseMethod.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practise/Use_hash_in_Class.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Animation/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled1/.idea/other.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled1/.idea/testrunner.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Animation_Example/Animation_0.py" afterPath="$PROJECT_DIR$/Animation/Animation_0.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Animation_Example/Animation_1.py" afterPath="$PROJECT_DIR$/Animation/Animation_1.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Animation_Example/Animation_2.py" afterPath="$PROJECT_DIR$/Animation/Animation_2.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Animation_Example/Animation_3.py" afterPath="$PROJECT_DIR$/Animation/Animation_3.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Animation_Example/CheckQQ.py" afterPath="$PROJECT_DIR$/Animation/CheckQQ.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Animation_Example/Python-1.py" afterPath="$PROJECT_DIR$/Animation/Python-1.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Animation_Example/__init__.py" afterPath="$PROJECT_DIR$/Animation/Snake/Snake.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Animation_Example/hw1.py" afterPath="$PROJECT_DIR$/Animation/hw1.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Animation_Example/hw2.py" afterPath="$PROJECT_DIR$/Animation/hw2.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Animation_Example/hw3.py" afterPath="$PROJECT_DIR$/Animation/hw3.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Animation_Example/hw4.py" afterPath="$PROJECT_DIR$/Animation/hw4.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Animation_Example/hw5.py" afterPath="$PROJECT_DIR$/Animation/hw5.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Animation_Example/hw6.py" afterPath="$PROJECT_DIR$/Animation/hw6.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Animation_Example/no_global.py" afterPath="$PROJECT_DIR$/Animation/no_global.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../untitled1/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../untitled1/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" />
+    </list>
     <ignored path="untitled1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Animation_2.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1363738141111" ignored="false" />
+    <file path="/Dummy.txt" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1363892470681" ignored="false" />
+    <file path="/StrProblem.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1363833655677" ignored="false" />
+    <file path="/EqlProblem.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1363830869015" ignored="false" />
+    <file path="/Use_hash_in_Class.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1363834445635" ignored="false" />
+    <file path="/Overriding.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1363837601193" ignored="false" />
+    <file path="/UseMethod.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1363837753209" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,19 +58,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Animation_1.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Animation_Example/Animation_1.py">
+      <file leaf-file-name="Animation_3.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Animation/Animation_3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="10" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0">
+            <state line="21" column="32" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Animation_2.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Animation_Example/Animation_2.py">
+      <file leaf-file-name="Snake.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Animation/Snake/Snake.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="5" selection-start="619" selection-end="619" vertical-scroll-proportion="0.6896552">
+            <state line="187" column="20" selection-start="6286" selection-end="6286" vertical-scroll-proportion="-0.21809745">
               <folding />
             </state>
           </provider>
@@ -46,23 +83,42 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Animation_1.py" />
-        <option value="$PROJECT_DIR$/Animation_Example/Animation_0.py" />
-        <option value="$PROJECT_DIR$/Animation_Example/Animation_1.py" />
-        <option value="$PROJECT_DIR$/Animation_Example/no_global.py" />
         <option value="$PROJECT_DIR$/Animation_Example/Animation_2.py" />
+        <option value="$PROJECT_DIR$/Practise/EqlProblem.py" />
+        <option value="$PROJECT_DIR$/Practise/StrProblem.py" />
+        <option value="$PROJECT_DIR$/Animation_Example/AnimationWithClass.py" />
+        <option value="$PROJECT_DIR$/Animation/AnimationWithClass.py" />
+        <option value="$PROJECT_DIR$/Animation/hw6.py" />
+        <option value="$PROJECT_DIR$/Animation/hw5.py" />
+        <option value="$PROJECT_DIR$/Animation/hw4.py" />
+        <option value="$PROJECT_DIR$/Practise/Use_hash_in_Class.py" />
+        <option value="$PROJECT_DIR$/Practise/Isinstance_VS_Type.py" />
+        <option value="$PROJECT_DIR$/Practise/OverRide.py" />
+        <option value="$PROJECT_DIR$/Practise/Overriding.py" />
+        <option value="$PROJECT_DIR$/Practise/Old_VS_New_Style_Class.py" />
+        <option value="$PROJECT_DIR$/Practise/Test.py" />
+        <option value="$PROJECT_DIR$/Practise/UseMethod.py" />
+        <option value="$PROJECT_DIR$/Animation/Snake/Snake.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="809" />
+    <option name="height" value="803" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -103,11 +159,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="MyPython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="untitled1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPython" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Animation_Example" />
+              <option name="myItemId" value="Animation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Animation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Snake" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -116,15 +200,78 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Animation_Example" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Animation_2">
+  <component name="RunManager" selected="Python.Snake">
+    <configuration default="false" name="UseMethod" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="untitled1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practise/UseMethod.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Overriding" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="untitled1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practise/Overriding.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Python-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Animation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="untitled1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Animation/Python-1.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="false" name="Animation_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,45 +279,28 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Animation" />
       <option name="IS_MODULE_SDK" value="true" />
       <module name="untitled1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Animation_Example/Animation_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Animation/Animation_3.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Animation_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Snake" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Animation_Example" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Animation/Snake" />
       <option name="IS_MODULE_SDK" value="true" />
       <module name="untitled1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Animation_Example/Animation_1.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="no_global" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Animation_Example" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="untitled1" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Animation_Example/no_global.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Animation/Snake/Snake.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -229,38 +359,42 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Animation_2" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Animation_Example" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="untitled1" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Animation_Example/Animation_2.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Python.Animation_3" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Animation_2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Animation_1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.no_global" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.UseMethod" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Overriding" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Python-1" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Animation_3" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Snake" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.no_global" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Animation_1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Animation_3" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.Snake" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Animation_3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Python-1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Overriding" />
+        <item index="4" class="java.lang.String" itemvalue="Python.UseMethod" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" name="Default" comment="" />
@@ -270,26 +404,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="809" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="803" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24605452" sideWeight="0.6700434" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25681493" sideWeight="0.670073" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -348,37 +482,86 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Animation_Example/Animation_0.py">
+    <entry file="file://$PROJECT_DIR$/Practise/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="5" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Animation/hw6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="1" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Animation/hw5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="1" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Animation/hw4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="1" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practise/Use_hash_in_Class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="39" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practise/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="51" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practise/StrProblem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practise/Isinstance_VS_Type.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="40" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Animation/Animation_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="48" selection-start="346" selection-end="346" vertical-scroll-proportion="0.023659306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Animation/Python-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="33" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.3607306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practise/Old_VS_New_Style_Class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="37" selection-start="700" selection-end="700" vertical-scroll-proportion="0.456621" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practise/Overriding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.543379" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practise/UseMethod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="47" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0913242" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Animation/hw3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Animation/Animation_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="32" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Animation_Example/no_global.py">
+    <entry file="file://$PROJECT_DIR$/Animation/Snake/Snake.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="19" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Animation_Example/Animation_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="21" selection-start="3564" selection-end="3586" vertical-scroll-proportion="1.7647059">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Animation_Example/Animation_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="10" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Animation_Example/Animation_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="619" selection-end="619" vertical-scroll-proportion="0.6896552">
+        <state line="187" column="20" selection-start="6286" selection-end="6286" vertical-scroll-proportion="-0.21809745">
           <folding />
         </state>
       </provider>

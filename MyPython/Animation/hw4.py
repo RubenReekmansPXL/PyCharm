@@ -1,5 +1,5 @@
 # hw4.py
-# <Yujia Wang> <yujiaw> <section A> 
+#
 """
 B. Practice-quiz
 1. Quick Answers
