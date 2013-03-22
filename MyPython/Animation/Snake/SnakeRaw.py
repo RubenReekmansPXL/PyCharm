@@ -62,7 +62,8 @@ def init():
     printInstructions()
     loadSnakeBoard()
     redrawAll()
-
+def init(canvas):
+    pass
 ########### copy-paste below here ###########
 
 def run():
@@ -76,11 +77,12 @@ def run():
     # Set up canvas data and call init
     class Struct: pass
     canvas.data = Struct()
-    init()
+    init(canvas)
     # set up events
-    root.bind("<Button-1>", mousePressed)
-    root.bind("<Key>", keyPressed)
-    timerFired()
+    root.bind("<Button-1>", lambda event: mousePressed(event,canvas))
+    root.bind("<Key>", lambda event: keyPressed(event,canvas))
+    # care the use way of lambda
+    timerFired(canvas)
     # and launch the app
     root.mainloop()  # This call BLOCKS (so your program waits until you close the window!)
 
