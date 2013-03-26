@@ -14,6 +14,8 @@ def keyPressed(event):
         gameOver()
     elif (event.char == "r"):
         init()
+    elif(event.char == "p"):
+        pass
     elif (event.char == "d"):
         canvas.data.inDebugMode = not canvas.data.inDebugMode
         # now process keys that only work if the game is not over
