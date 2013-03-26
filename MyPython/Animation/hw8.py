@@ -174,6 +174,7 @@ def printInstructions():
     print "And don't crash into yourself!"
     print "Press 'd' for debug mode."
     print "Press 'r' to restart."
+    print "Press 'p' to pause the Game"
 
 def init():
     printInstructions()

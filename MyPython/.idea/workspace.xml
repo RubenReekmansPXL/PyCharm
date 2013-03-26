@@ -15,7 +15,7 @@
     <file path="/UseMethod.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1363837753209" ignored="false" />
     <file path="/SnakeRaw.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1363981519064" ignored="false" />
     <file path="/Fibonacci.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1363991102805" ignored="false" />
-    <file path="/hw8.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1364329922244" ignored="false" />
+    <file path="/hw8.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1364330680667" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +35,7 @@
       <file leaf-file-name="hw8.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Animation/hw8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="169" column="18" selection-start="5762" selection-end="5762" vertical-scroll-proportion="1.8490566">
+            <state line="176" column="38" selection-start="6027" selection-end="6027" vertical-scroll-proportion="0.8938679">
               <folding>
                 <element signature="e#36#49#0" expanded="true" />
               </folding>
@@ -523,7 +523,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Animation/hw8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="169" column="18" selection-start="5762" selection-end="5762" vertical-scroll-proportion="1.8490566">
+        <state line="176" column="38" selection-start="6027" selection-end="6027" vertical-scroll-proportion="0.8938679">
           <folding>
             <element signature="e#36#49#0" expanded="true" />
           </folding>
