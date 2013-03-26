@@ -15,7 +15,7 @@
     <file path="/UseMethod.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1363837753209" ignored="false" />
     <file path="/SnakeRaw.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1363981519064" ignored="false" />
     <file path="/Fibonacci.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1363991102805" ignored="false" />
-    <file path="/hw8.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1364330680667" ignored="false" />
+    <file path="/hw8.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1364332369313" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +35,20 @@
       <file leaf-file-name="hw8.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Animation/hw8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="176" column="38" selection-start="6027" selection-end="6027" vertical-scroll-proportion="0.8938679">
+            <state line="80" column="17" selection-start="2647" selection-end="2647" vertical-scroll-proportion="0.44418052">
               <folding>
                 <element signature="e#36#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yyy.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Animation/Snake/yyy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="164" column="29" selection-start="6658" selection-end="6666" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#45#66#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Animation/hw6.py" />
         <option value="$PROJECT_DIR$/Animation/hw5.py" />
         <option value="$PROJECT_DIR$/Animation/hw4.py" />
         <option value="$PROJECT_DIR$/Practise/Use_hash_in_Class.py" />
@@ -76,6 +86,7 @@
         <option value="$PROJECT_DIR$/Practise/Fibonacci.py" />
         <option value="$PROJECT_DIR$/Practise/URLScape.py" />
         <option value="$PROJECT_DIR$/Practise/File.py" />
+        <option value="$PROJECT_DIR$/Animation/Snake/yyy.py" />
         <option value="$PROJECT_DIR$/Animation/hw8.py" />
       </list>
     </option>
@@ -83,7 +94,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="792" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -144,6 +155,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Animation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Snake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -170,24 +199,7 @@
       <recent name="$PROJECT_DIR$/Animation_Example" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.hw8">
-    <configuration default="false" name="Animation_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Animation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="untitled1" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Animation/Animation_3.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.yyy">
     <configuration default="false" name="Snake" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,6 +268,23 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="yyy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Animation/Snake" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="untitled1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Animation/Snake/yyy.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,19 +339,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Animation_3" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Snake" />
-      <item index="2" class="java.lang.String" itemvalue="Python.SnakeRaw" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Fibonacci" />
-      <item index="4" class="java.lang.String" itemvalue="Python.hw8" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Snake" />
+      <item index="1" class="java.lang.String" itemvalue="Python.SnakeRaw" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Fibonacci" />
+      <item index="3" class="java.lang.String" itemvalue="Python.hw8" />
+      <item index="4" class="java.lang.String" itemvalue="Python.yyy" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.hw8" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Fibonacci" />
-        <item index="2" class="java.lang.String" itemvalue="Python.SnakeRaw" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Snake" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Animation_3" />
+        <item index="0" class="java.lang.String" itemvalue="Python.yyy" />
+        <item index="1" class="java.lang.String" itemvalue="Python.hw8" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Fibonacci" />
+        <item index="3" class="java.lang.String" itemvalue="Python.SnakeRaw" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Snake" />
       </list>
     </recent_temporary>
   </component>
@@ -354,18 +383,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="792" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="789" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28120518" sideWeight="0.6706231" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28120518" sideWeight="0.66915053" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32937685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33084947" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -432,11 +461,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Practise/Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="51" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Practise/StrProblem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" />
@@ -521,9 +545,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Animation/Snake/yyy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="164" column="29" selection-start="6658" selection-end="6666" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#45#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Animation/hw8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="38" selection-start="6027" selection-end="6027" vertical-scroll-proportion="0.8938679">
+        <state line="80" column="17" selection-start="2647" selection-end="2647" vertical-scroll-proportion="0.44418052">
           <folding>
             <element signature="e#36#49#0" expanded="true" />
           </folding>

@@ -15,7 +15,7 @@ def keyPressed(event):
     elif (event.char == "r"):
         init()
     elif(event.char == "p"):
-        pass
+        pause()
     elif (event.char == "d"):
         canvas.data.inDebugMode = not canvas.data.inDebugMode
         # now process keys that only work if the game is not over
@@ -75,12 +75,15 @@ def removeTail():
 
 def gameOver():
     canvas.data.isGameOver = True
+def pause():
+    canvas.data.inPauseMode=True
 
 def timerFired():
     ignoreThisTimerEvent = canvas.data.ignoreNextTimerEvent
     canvas.data.ignoreNextTimerEvent = False
     if ((canvas.data.isGameOver == False) and
-            (ignoreThisTimerEvent == False)):
+            (ignoreThisTimerEvent == False) and
+            (canvas.data.inPauseMode==False)):
         # only process timerFired if game is not over
         drow = canvas.data.snakeDrow
         dcol = canvas.data.snakeDcol
@@ -88,7 +91,7 @@ def timerFired():
         redrawAll()
         # whether or not game is over, call next timerFired
     # (or we'll never call timerFired again!)
-    delay = 150 # milliseconds
+    delay = 200 # milliseconds
     canvas.after(delay, timerFired) # pause, then call timerFired again
 
 def redrawAll():
@@ -98,6 +101,10 @@ def redrawAll():
         cx = canvas.data.canvasWidth/2
         cy = canvas.data.canvasHeight/2
         canvas.create_text(cx, cy, text="Game Over!", font=("Helvetica", 32, "bold"))
+    if (canvas.data.inPauseMode == True):
+        cx1 = canvas.data.canvasWidth/2
+        cy1 = canvas.data.canvasHeight/2
+        canvas.create_text(cx1, cy1, text="Game Pause!", font=("Helvetica", 32, "bold"))
 
 def drawSnakeBoard():
     snakeBoard = canvas.data.snakeBoard
@@ -181,6 +188,7 @@ def init():
     loadSnakeBoard()
     canvas.data.inDebugMode = False
     canvas.data.isGameOver = False
+    canvas.data.inPauseMode = False
     canvas.data.snakeDrow = 0
     canvas.data.snakeDcol = -1 # start moving left
     canvas.data.ignoreNextTimerEvent = False
