@@ -52,7 +52,11 @@ def moveSnake(drow, dcol):
               (canvas.data.inPauseMode == False)):
         # eating food!  Yum!
         snakeBoard[newHeadRow][newHeadCol] = 1 + snakeBoard[headRow][headCol];
+        if ( snakeBoard[newHeadRow][newHeadCol]>=3):
+            canvas.data.level1=False
+            canvas.data.level2=True
         canvas.data.score=canvas.data.score + 1
+
         canvas.data.headRow = newHeadRow
         canvas.data.headCol = newHeadCol
         placeFood()
@@ -98,8 +102,13 @@ def timerFired():
         redrawAll()
         # whether or not game is over, call next timerFired
     # (or we'll never call timerFired again!)
-    delay = 200 # milliseconds
-    canvas.after(delay, timerFired) # pause, then call timerFired again
+    if (canvas.data.level1==True):
+        delay = 500 # milliseconds
+        canvas.after(delay, timerFired) # pause, then call timerFired again
+
+    if (canvas.data.level2==True):
+        delay1=100
+        canvas.after(delay1, timerFired)
 
 def redrawAll():
     canvas.delete(ALL)
@@ -108,7 +117,11 @@ def redrawAll():
     if (canvas.data.isGameOver == True):
         cx = canvas.data.canvasWidth/2
         cy = canvas.data.canvasHeight/2
-        canvas.create_text(cx, cy, text="Game Over!", font=("Helvetica", 32, "bold"))
+        a=list(canvas.data.scoreteam)
+        a.append(canvas.data.score)
+        sorted(a,reverse = True)
+        canvas.create_text(cx, cy, text="Game Over!Your score is   "+str(canvas.data.score), font=("Helvetica", 32, "bold"))
+        canvas.create_text(cx,cy+50,text="The Top 3 Score is"+"   "+str(a) ,font=("Helvetica", 32, "bold"))
     if (canvas.data.inPauseMode == True):
         cx1 = canvas.data.canvasWidth/2
         cy1 = canvas.data.canvasHeight/2
@@ -205,6 +218,8 @@ def init():
     printInstructions()
     loadSnakeBoard()
     canvas.data.score=0
+    canvas.data.level1=True
+    canvas.data.level2=False
     canvas.data.inDebugMode = False
     canvas.data.isGameOver = False
     canvas.data.inPauseMode = False
@@ -230,6 +245,7 @@ def run(rows, cols):
     # Set up canvas data and call init
     class Struct: pass
     canvas.data = Struct()
+    canvas.data.scoreteam=()
     canvas.data.margin = margin
     canvas.data.cellSize = cellSize
     canvas.data.canvasWidth = canvasWidth
