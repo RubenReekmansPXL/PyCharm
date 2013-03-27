@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Animation/Snake/SnakeFinal.py" afterPath="$PROJECT_DIR$/Animation/Snake/SnakeFinal.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,8 +15,8 @@
     <file path="/UseMethod.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1363837753209" ignored="false" />
     <file path="/SnakeRaw.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1363981519064" ignored="false" />
     <file path="/Fibonacci.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1363991102805" ignored="false" />
-    <file path="/hw8.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1364347908470" ignored="false" />
-    <file path="/SnakeFinal.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1364347870794" ignored="false" />
+    <file path="/hw8.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1364351251256" ignored="false" />
+    <file path="/SnakeFinal.py" changelist="1ea8fa5e-d67f-4f1a-ad2e-29300145303e" time="1364350414889" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,20 +36,9 @@
       <file leaf-file-name="SnakeFinal.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Animation/Snake/SnakeFinal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="29" selection-start="4842" selection-end="4842" vertical-scroll-proportion="0.971223">
+            <state line="154" column="69" selection-start="5691" selection-end="5691" vertical-scroll-proportion="0.25247526">
               <folding>
                 <element signature="e#36#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="yyy.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Animation/Snake/yyy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="164" column="29" selection-start="6658" selection-end="6666" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#45#66#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -267,7 +255,9 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Animation/Snake/SnakeFinal.py" />
       <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -394,7 +384,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28120518" sideWeight="0.6671664" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988006" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3328336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -559,7 +549,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Animation/Snake/SnakeFinal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="29" selection-start="4842" selection-end="4842" vertical-scroll-proportion="0.971223">
+        <state line="154" column="69" selection-start="5691" selection-end="5691" vertical-scroll-proportion="0.25247526">
           <folding>
             <element signature="e#36#49#0" expanded="true" />
           </folding>

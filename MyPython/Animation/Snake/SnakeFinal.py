@@ -49,17 +49,23 @@ def moveSnake(drow, dcol):
         # snake ran into itself!
         gameOver()
     elif ((snakeBoard[newHeadRow][newHeadCol] < 0) and
-              (canvas.data.inPauseMode == False)):
+              (canvas.data.inPauseMode == False)and (snakeBoard[newHeadRow][newHeadCol] >=-1)):
         # eating food!  Yum!
         snakeBoard[newHeadRow][newHeadCol] = 1 + snakeBoard[headRow][headCol];
-        if ( snakeBoard[newHeadRow][newHeadCol]>=3):
+        if (snakeBoard[newHeadRow][newHeadCol]>=3):
             canvas.data.level1=False
             canvas.data.level2=True
-        canvas.data.score=canvas.data.score + 1
+            if (canvas.data.level2==True):
+                placePoison()
 
+        canvas.data.score=canvas.data.score + 1
         canvas.data.headRow = newHeadRow
         canvas.data.headCol = newHeadCol
         placeFood()
+
+    elif ((snakeBoard[newHeadRow][newHeadCol] < -1) and
+              (canvas.data.inPauseMode == False)):
+        gameOver()
     else:
         # normal move forward (not eating food)
         snakeBoard[newHeadRow][newHeadCol] = 1 + snakeBoard[headRow][headCol];
@@ -118,10 +124,10 @@ def redrawAll():
         cx = canvas.data.canvasWidth/2
         cy = canvas.data.canvasHeight/2
         a=list(canvas.data.scoreteam)
-        a.append(canvas.data.score)
+        a.insert(0,canvas.data.score)
         sorted(a,reverse = True)
         canvas.create_text(cx, cy, text="Game Over!Your score is   "+str(canvas.data.score), font=("Helvetica", 32, "bold"))
-        canvas.create_text(cx,cy+50,text="The Top 3 Score is"+"   "+str(a) ,font=("Helvetica", 32, "bold"))
+        #canvas.create_text(cx,cy+50,text="The Top 3 Score is"+"   "+str(a) ,font=("Helvetica", 32, "bold"))
     if (canvas.data.inPauseMode == True):
         cx1 = canvas.data.canvasWidth/2
         cy1 = canvas.data.canvasHeight/2
@@ -147,18 +153,21 @@ def drawSnakeCell(snakeBoard, row, col):
         if (snakeBoard[row][col] > 0):
         # draw part of the snake body
             canvas.create_oval(left, top, right, bottom, fill="blue")
-        elif (snakeBoard[row][col] < 0):
+        elif ((snakeBoard[row][col] < 0)and(snakeBoard[row][col]>-2)):
         # draw food
             canvas.create_oval(left, top, right, bottom, fill="green")
-        # for debugging, draw the number in the cell
+        if((canvas.data.level2==True)and(snakeBoard[row][col]<=-2)):
+            canvas.create_oval(left, top, right, bottom, fill="red")
     if(canvas.data.inPauseMode==True):
         # canvas.create_rectangle(left, top, right, bottom,fill="")
         if (snakeBoard[row][col] > 0):
         # draw part of the snake body
             canvas.create_oval(left, top, right, bottom, fill="lightblue")
-        elif (snakeBoard[row][col] < 0):
+        elif ((snakeBoard[row][col] < 0)and(snakeBoard[row][col]>-2)):
         # draw food
             canvas.create_oval(left, top, right, bottom, fill="lightgreen")
+        if((canvas.data.level2==True)and(snakeBoard[row][col]<=-2)):
+            canvas.create_oval(left, top, right, bottom, fill="lightred")
             # for debugging, draw the number in the cell
     if (canvas.data.inDebugMode == True):
         canvas.create_text(left+cellSize/2,top+cellSize/2,
@@ -187,6 +196,19 @@ def placeFood():
         if (snakeBoard[row][col] == 0):
             break
     snakeBoard[row][col] = -1
+def placePoison():
+    # place Poison (-2) in a random location on the snakeBoard, but
+    # keep picking random locations until we find one that is not
+    # part of the snake!
+    snakeBoard = canvas.data.snakeBoard
+    rows = len(snakeBoard)
+    cols = len(snakeBoard[0])
+    while True:
+        row = random.randint(0,rows-2)
+        col = random.randint(0,cols-2)
+        if (snakeBoard[row][col] == 0):
+            break
+    snakeBoard[row][col] = -2
 
 def findSnakeHead():
     # find where snakeBoard[row][col] is largest, and
@@ -245,7 +267,7 @@ def run(rows, cols):
     # Set up canvas data and call init
     class Struct: pass
     canvas.data = Struct()
-    canvas.data.scoreteam=()
+    canvas.data.scoreteam=[[] for i in range(3)]
     canvas.data.margin = margin
     canvas.data.cellSize = cellSize
     canvas.data.canvasWidth = canvasWidth
