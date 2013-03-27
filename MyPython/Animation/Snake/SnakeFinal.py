@@ -48,7 +48,8 @@ def moveSnake(drow, dcol):
     elif (snakeBoard[newHeadRow][newHeadCol] > 0):
         # snake ran into itself!
         gameOver()
-    elif (snakeBoard[newHeadRow][newHeadCol] < 0):
+    elif ((snakeBoard[newHeadRow][newHeadCol] < 0) and
+              (canvas.data.inPauseMode == False)):
         # eating food!  Yum!
         snakeBoard[newHeadRow][newHeadCol] = 1 + snakeBoard[headRow][headCol];
         canvas.data.headRow = newHeadRow
@@ -76,7 +77,12 @@ def removeTail():
 def gameOver():
     canvas.data.isGameOver = True
 def pause():
-    canvas.data.inPauseMode=True
+    if((canvas.data.inPauseMode==False) and
+        (canvas.data.isGameOver==False)):
+        canvas.data.inPauseMode=True
+    elif ((canvas.data.inPauseMode==True)and
+        (canvas.data.isGameOver==False)):
+        canvas.data.inPauseMode=False
 
 def timerFired():
     ignoreThisTimerEvent = canvas.data.ignoreNextTimerEvent
@@ -121,17 +127,27 @@ def drawSnakeCell(snakeBoard, row, col):
     right = left + cellSize
     top = margin + row * cellSize
     bottom = top + cellSize
-    canvas.create_rectangle(left, top, right, bottom, fill="white")
-    if (snakeBoard[row][col] > 0):
+    if(canvas.data.inPauseMode==False):
+        canvas.create_rectangle(left, top, right, bottom, fill="white")
+        if (snakeBoard[row][col] > 0):
         # draw part of the snake body
-        canvas.create_oval(left, top, right, bottom, fill="blue")
-    elif (snakeBoard[row][col] < 0):
+            canvas.create_oval(left, top, right, bottom, fill="blue")
+        elif (snakeBoard[row][col] < 0):
         # draw food
-        canvas.create_oval(left, top, right, bottom, fill="green")
+            canvas.create_oval(left, top, right, bottom, fill="green")
         # for debugging, draw the number in the cell
+    if(canvas.data.inPauseMode==True):
+        # canvas.create_rectangle(left, top, right, bottom,fill="")
+        if (snakeBoard[row][col] > 0):
+        # draw part of the snake body
+            canvas.create_oval(left, top, right, bottom, fill="lightblue")
+        elif (snakeBoard[row][col] < 0):
+        # draw food
+            canvas.create_oval(left, top, right, bottom, fill="lightgreen")
+            # for debugging, draw the number in the cell
     if (canvas.data.inDebugMode == True):
         canvas.create_text(left+cellSize/2,top+cellSize/2,
-                           text=str(snakeBoard[row][col]),font=("Helvatica", 14, "bold"))
+            text=str(snakeBoard[row][col]),font=("Helvatica", 14, "bold"))
 
 def loadSnakeBoard():
     rows = canvas.data.rows
@@ -225,4 +241,4 @@ def run(rows, cols):
     # and launch the app
     root.mainloop()  # This call BLOCKS (so your program waits until you close the window!)
 
-run(8,16)
+run(24,42)
