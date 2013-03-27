@@ -52,6 +52,7 @@ def moveSnake(drow, dcol):
               (canvas.data.inPauseMode == False)):
         # eating food!  Yum!
         snakeBoard[newHeadRow][newHeadCol] = 1 + snakeBoard[headRow][headCol];
+        canvas.data.score=canvas.data.score + 1
         canvas.data.headRow = newHeadRow
         canvas.data.headCol = newHeadCol
         placeFood()
@@ -103,6 +104,7 @@ def timerFired():
 def redrawAll():
     canvas.delete(ALL)
     drawSnakeBoard()
+    canvas.create_text(canvas.data.canvasWidth/2,20,text="Your score is"+"  "+str(canvas.data.score),font=("Helvetica",24))
     if (canvas.data.isGameOver == True):
         cx = canvas.data.canvasWidth/2
         cy = canvas.data.canvasHeight/2
@@ -202,6 +204,7 @@ def printInstructions():
 def init():
     printInstructions()
     loadSnakeBoard()
+    canvas.data.score=0
     canvas.data.inDebugMode = False
     canvas.data.isGameOver = False
     canvas.data.inPauseMode = False
