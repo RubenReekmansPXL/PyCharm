@@ -5,7 +5,18 @@ import random
 from Tkinter import *
 
 def mousePressed(event):
-    redrawAll()
+    if(canvas.data.inPauseMode==True):
+        newCircleCenter = (event.x, event.y)
+        # canvas.create_oval(event.x, event.y, right, bottom, fill="brown")
+        canvas.data.circleCenters.append(newCircleCenter)
+
+        # if (len(canvas.data.circleCenters) > 0):
+        #     canvas.data.circleCenters.pop(0)
+        # else:
+        #     print "No more circles to delete!"
+
+        redrawAll()
+
 
 def keyPressed(event):
     canvas.data.ignoreNextTimerEvent = True # for better timing
@@ -133,6 +144,9 @@ def redrawAll():
         cy1 = canvas.data.canvasHeight/2
         canvas.create_text(cx1, cy1, text="Game Pause!", font=("Helvetica", 32, "bold"))
 
+
+
+
 def drawSnakeBoard():
     snakeBoard = canvas.data.snakeBoard
     rows = len(snakeBoard)
@@ -239,6 +253,7 @@ def printInstructions():
 def init():
     printInstructions()
     loadSnakeBoard()
+    canvas.data.circleCenters = [ ]
     canvas.data.score=0
     canvas.data.level1=True
     canvas.data.level2=False
